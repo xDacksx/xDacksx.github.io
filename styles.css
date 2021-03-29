@@ -1,0 +1,41 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    background: #111;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100vw; height: 100vh;
+    color: #eee;
+    padding-top: 5vh;
+}
+body h1 {
+    color: #eeeeeeb6;
+    text-align: center;
+    margin-bottom: 20px;
+}
+body h1 a {
+    color: #ddd;
+    opacity: 0.5;
+    text-decoration: none;
+    transition: opacity .45s ease;
+}
+body h1 a:hover {
+    opacity: 1;
+    transition: opacity .45s ease;
+}
+body svg {
+    fill: #eee;
+    margin-bottom: 20px;
+}
+body p {
+    text-transform: capitalize;
+    font-size: clamp(17px, 2vw, 25px);
+    opacity: 0.8;
+}
